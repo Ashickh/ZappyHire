@@ -9,24 +9,24 @@ ws=wb['Sheet1']
 ws['A1']="Salary Components"
 ws['A1'].font=Font(bold=True)
 
-ws['B1']="Yealy"
+ws['B1']="Yealy(INR)"
 ws['B1'].font=Font(bold=True)
 
-ws['C1']="Monthly"
+ws['C1']="Monthly(INR)"
 ws['C1'].font=Font(bold=True)
 
-ws['A2']="Base Salary"
+ws['A2']="Basic Salary"
 ws['A3']="HRA"
-ws['A4']="SA"
+ws['A4']="Special Allowance"
 ws['A5']="PF"
 
-ws['A6']="Basic Salary"
+ws['A6']="Base Salary"
 ws['A6'].font=Font(bold=True)
 
-ws['A7']="Yearly Bonus"
+ws['A7']="Annual Bonus"
 ws['A8']="Other Allowance"
 
-ws['A9']="CTC"
+ws['A9']="Cost To Company"
 ws['A9'].font=Font(bold=True)
 
 
